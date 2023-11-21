@@ -124,6 +124,7 @@ Implementation of paper - [YOLOv7: Trainable bag-of-freebies sets new state-of-t
  | <font color="#FF9912">传统相机标定法</font> |       可使用于任意的相机模型、 精度高       |           需要标定物、算法复杂           | Tsai两步法、<font color="#FF9912">张氏标定法</font> | 
  |              主动视觉相机标定法               |       不需要标定物、算法简单、鲁棒性高       |            成本高、设备昂贵            |               主动系统控制相机做特定运动                | 
  |                相机自标定法                |          灵活性强、可在线标定          |            精度低、鲁棒性差            |             分层逐步标定、基于Kruppa方程              | 
+
 <font size="2">*表中黄色字体所选的方法为我们所采用的方法，其他方法请自行查阅。</font>
 
 <br/>
