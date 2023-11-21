@@ -28,16 +28,16 @@
 
 ###### cr5相关文档 - https://github.com/Dobot-Arm
 [`CR5用户手册`](./file/CR5/CR5用户手册.pdf)
-[`Dobot CR5 硬件使用手册V2.3`](./file/CR5/Dobot CR5 硬件使用手册V2.3.pdf)
-[`DobotSCStudio 用户手册(CR机器人)`](./file/CR5/DobotSCStudio 用户手册(CR机器人).pdf)
+[`CR5硬件使用手册V2.3`](./file/CR5/CR5硬件使用手册V2.3.pdf)
+[`DobotSCStudio用户手册(CR机器人)`](./file/CR5/DobotSCStudio用户手册(CR机器人).pdf)
 [`Lua脚本编程用户手册（CR机器人）`](./file/CR5/Lua脚本编程用户手册（CR机器人）.pdf)
 [`机械爪`](./file/CR5/机械爪.pdf)
 [`如何使用末端的485`](./file/CR5/如何使用末端的485.pdf)
 
 ###### xArm6相关文档 - https://github.com/xArm-Developer
-[`xArm 开发者手册`](./file/xArm6/xArm 开发者手册-V1.8.5.pdf)
-[`xArm 技术规格参数表`](./file/xArm6/xArm 技术规格参数表.pdf)
-[`xArm 用户手册`](./file/xArm6/xArm 用户手册-V1.8.6.pdf)
+[`xArm开发者手册`](./file/xArm6/xArm开发者手册-V1.8.5.pdf)
+[`xArm技术规格参数表`](./file/xArm6/xArm技术规格参数表.pdf)
+[`xArm用户手册`](./file/xArm6/xArm用户手册-V1.8.6.pdf)
 [`xArm技术参数手册`](./file/xArm6/xArm技术参数手册.pdf)
 [`xArm机械爪用户手册`](./file/xArm6/xArm机械爪用户手册-V1.6.1.pdf)
 
