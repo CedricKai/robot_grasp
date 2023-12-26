@@ -1,0 +1,8 @@
+# pip install -r requirements.txt
+
+# base ----------------------------------------
+opencv-python==4.6.0.66
+pyrealsense2
+tqdm
+ultralytics
+transforms3d

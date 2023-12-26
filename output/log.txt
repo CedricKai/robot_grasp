@@ -1,0 +1,185 @@
++ echo Logging output to output//log.txt
+Logging output to output//log.txt
++ python -m core.grasp Folder_2023_12_25_20_33_25
+SDK_VERSION: 1.13.16
+[0;33m------------------------config------------------------[0m
+usage: grasp.py [-h] [--date DATE]
+grasp.py: error: unrecognized arguments: Folder_2023_12_25_20_33_25
++ echo Logging output to output//log.txt
+Logging output to output//log.txt
++ python -m core.grasp test1
+SDK_VERSION: 1.13.16
+[0;33m------------------------config------------------------[0m
+usage: grasp.py [-h] [--date DATE]
+grasp.py: error: unrecognized arguments: test1
++ echo Logging output to output//log.txt
+Logging output to output//log.txt
++ python -m core.grasp --date Folder_2023_12_25_20_33_25
+SDK_VERSION: 1.13.16
+[0;33m------------------------config------------------------[0m
+ROBOT_IP: 192.168.31.100, VERSION: v1.9.0, PROTOCOL: V1, DETAIL: 6,6,XI1203,XX0000,v1.9.0, TYPE1300: [0, 0]
+change protocol identifier to 3
+Found device:  Intel RealSense D435   937622073234
+
+(480, 640, 3)
+0: 480x640 1 apple, 1 toilet, 77.2ms
+Speed: 2.0ms preprocess, 77.2ms inference, 2.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[   -0.03789    -0.99927   0.0043808      502.43]
+ [   -0.99922    0.037936    0.010965      102.24]
+ [  -0.011124  -0.0039619    -0.99993      -40.06]
+ [          0           0           0           1]]
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 person, 74.3ms
+Speed: 1.0ms preprocess, 74.3ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 apple, 1 toilet, 72.3ms
+Speed: 1.0ms preprocess, 72.3ms inference, 4.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[   -0.03789    -0.99927   0.0043808       425.9]
+ [   -0.99922    0.037936    0.010965      31.876]
+ [  -0.011124  -0.0039619    -0.99993     -39.167]
+ [          0           0           0           1]]
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 person, 1 apple, 63.3ms
+Speed: 1.0ms preprocess, 63.3ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[   -0.03789    -0.99927   0.0043808      416.55]
+ [   -0.99922    0.037936    0.010965      38.842]
+ [  -0.011124  -0.0039619    -0.99993      310.89]
+ [          0           0           0           1]]
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 person, 1 toilet, 73.3ms
+Speed: 1.0ms preprocess, 73.3ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 apple, 1 toilet, 69.8ms
+Speed: 1.0ms preprocess, 69.8ms inference, 0.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[   -0.03789    -0.99927   0.0043808      480.73]
+ [   -0.99922    0.037936    0.010965     -21.068]
+ [  -0.011124  -0.0039619    -0.99993     -9.5049]
+ [          0           0           0           1]]
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 person, 1 cat, 84.7ms
+Speed: 2.0ms preprocess, 84.7ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 apple, 76.7ms
+Speed: 1.0ms preprocess, 76.7ms inference, 0.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[   -0.03789    -0.99927   0.0043808      412.07]
+ [   -0.99922    0.037936    0.010965      30.105]
+ [  -0.011124  -0.0039619    -0.99993     -39.247]
+ [          0           0           0           1]]
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 apple, 76.7ms
+Speed: 1.0ms preprocess, 76.7ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[   -0.03789    -0.99927   0.0043808      416.55]
+ [   -0.99922    0.037936    0.010965      38.842]
+ [  -0.011124  -0.0039619    -0.99993      310.89]
+ [          0           0           0           1]]
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 person, 1 traffic light, 1 apple, 78.3ms
+Speed: 1.0ms preprocess, 78.3ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[   -0.03789    -0.99927   0.0043808      413.83]
+ [   -0.99922    0.037936    0.010965     -12.156]
+ [  -0.011124  -0.0039619    -0.99993     -76.705]
+ [          0           0           0           1]]
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 person, 1 apple, 74.3ms
+Speed: 1.0ms preprocess, 74.3ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[   -0.03789    -0.99927   0.0043808      421.56]
+ [   -0.99922    0.037936    0.010965     -1.9285]
+ [  -0.011124  -0.0039619    -0.99993     -61.558]
+ [          0           0           0           1]]
+Press enter to continue.+ echo Logging output to output//log.txt
+Logging output to output//log.txt
++ python -m core.grasp --date test
+SDK_VERSION: 1.13.16
+[0;33m------------------------config------------------------[0m
+ROBOT_IP: 192.168.31.100, VERSION: v1.9.0, PROTOCOL: V1, DETAIL: 6,6,XI1203,XX0000,v1.9.0, TYPE1300: [0, 0]
+change protocol identifier to 3
+Found device:  Intel RealSense D435   937622073234
+
+(480, 640, 3)
+0: 480x640 1 traffic light, 1 apple, 80.3ms
+Speed: 1.0ms preprocess, 80.3ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[  -0.031983    -0.99925    0.021736      482.12]
+ [   -0.99939    0.032271    0.013043      7.2914]
+ [  -0.013735   -0.021306    -0.99968     -6.4213]
+ [          0           0           0           1]]
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 person, 1 apple, 92.2ms
+Speed: 1.0ms preprocess, 92.2ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[  -0.031983    -0.99925    0.021736      415.96]
+ [   -0.99939    0.032271    0.013043      35.016]
+ [  -0.013735   -0.021306    -0.99968       311.6]
+ [          0           0           0           1]]
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 2 persons, 1 traffic light, 1 apple, 66.8ms
+Speed: 0.0ms preprocess, 66.8ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[  -0.031983    -0.99925    0.021736      415.96]
+ [   -0.99939    0.032271    0.013043      35.016]
+ [  -0.013735   -0.021306    -0.99968       311.6]
+ [          0           0           0           1]]
+Press enter to continue.
+(480, 640, 3)
+0: 480x640 1 person, 1 traffic light, 1 toilet, 64.3ms
+Speed: 1.0ms preprocess, 64.3ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+Press enter to continue.+ echo Logging output to output//log.txt
+Logging output to output//log.txt
++ python -m core.grasp --date test
+SDK_VERSION: 1.13.16
+[0;33m------------------------config------------------------[0m
+ROBOT_IP: 192.168.31.100, VERSION: v1.9.0, PROTOCOL: V1, DETAIL: 6,6,XI1203,XX0000,v1.9.0, TYPE1300: [0, 0]
+change protocol identifier to 3
+Found device:  Intel RealSense D435   937622073234
+
+(480, 640, 3)
+0: 480x640 1 traffic light, 1 apple, 86.0ms
+Speed: 2.0ms preprocess, 86.0ms inference, 2.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[  -0.031983    -0.99925    0.021736      482.12]
+ [   -0.99939    0.032271    0.013043      7.2914]
+ [  -0.013735   -0.021306    -0.99968     -6.4212]
+ [          0           0           0           1]]
+End.
++ echo Logging output to output//log.txt
+Logging output to output//log.txt
++ python -m core.grasp --date test
+SDK_VERSION: 1.13.16
+[0;33m------------------------config------------------------[0m
+ROBOT_IP: 192.168.31.100, VERSION: v1.9.0, PROTOCOL: V1, DETAIL: 6,6,XI1203,XX0000,v1.9.0, TYPE1300: [0, 0]
+change protocol identifier to 3
+Found device:  Intel RealSense D435   937622073234
+
+(480, 640, 3)
+0: 480x640 1 apple, 80.7ms
+Speed: 2.0ms preprocess, 80.7ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[  -0.031983    -0.99925    0.021736      450.42]
+ [   -0.99939    0.032271    0.013043      87.626]
+ [  -0.013735   -0.021306    -0.99968     -8.0631]
+ [          0           0           0           1]]
+End.
++ echo Logging output to output//log.txt
+Logging output to output//log.txt
++ python -m core.grasp --date test
+SDK_VERSION: 1.13.16
+[0;33m------------------------config------------------------[0m
+ROBOT_IP: 192.168.31.100, VERSION: v1.9.0, PROTOCOL: V1, DETAIL: 6,6,XI1203,XX0000,v1.9.0, TYPE1300: [0, 0]
+change protocol identifier to 3
+Found device:  Intel RealSense D435   937622073234
+
+(480, 640, 3)
+0: 480x640 1 apple, 1 dining table, 76.3ms
+Speed: 2.0ms preprocess, 76.3ms inference, 1.0ms postprocess per image at shape (1, 3, 480, 640)
+RT_obj2base: [[  -0.031983    -0.99925    0.021736      444.37]
+ [   -0.99939    0.032271    0.013043     -13.456]
+ [  -0.013735   -0.021306    -0.99968     -7.5129]
+ [          0           0           0           1]]
+End.

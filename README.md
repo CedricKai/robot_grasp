@@ -1,7 +1,12 @@
-# 机械臂定位抓取目标物体
-版本：V1.0
+# 机械臂定位抓取目标物体(v1.2)
+## 0. 版本信息
+### 代码结构更新请参考./core/README.md
 
-时间：2023/11/21
+ |  版本  |          主要更新内容           |     时间     |   作者   |
+ |:----:|:-------------------------:|:----------:|:------:|
+ | v1.0 |           基础框架            | 2023/11/21 | cedric |
+ | v1.1 | 新增"自动标定"代码<br/>（使用参考第4部分） | 2023/12/24 | cedric |
+ | v1.2 |   新增"抓取"代码<br/>（使用参考第4部分）   | 2023/12/25 | cedric |
 
 ## 1. 介绍
 
@@ -215,7 +220,45 @@ Note:
 - Rodrigues(): 实现旋转向量和旋转矩阵的相互转换
 - stereCalibrate(): 双目视觉标定
 
-## 4. 结语
+## 4. 标定
+### 4.1 自动标定（目前代码只适用于xarm6+D435i）
+其他版本的机械臂或者相机，请参考core文件，自行增补适用自己的代码
+
+``` shell
+# Using Conda or Miniconda to install a virtual environment.
+conda create -n robot python=3.8
+```
+
+``` shell
+# apt install required packages
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
+```
+
+windows端，请将Terminal终端格式切换至: ./Git/bin/sh.exe  
+若未安装，请去https://www.git-scm.com/ ,自行安装git bash
+``` shell
+# go to code folder
+bash ./experiments/scripts/run_calibration.sh --dis_img
+```
+
+以下命令中的test可以替换至./output/imgSave/中的新的标定文件名，默认为deom的test文件名  
+当前识别限制了类别： <font color="#FF9912">**--苹果--**</font>，可修改./core/grasp.py中的代码，识别其他种类物体
+
+``` shell
+# test grasp
+bash ./experiments/scripts/online_grasp.sh test
+```
+
+### 4.2 其他说明
+夹爪坐标系：在xarm6夹爪沿z轴方向最远处+1cm
+
+<img src="./figure/tool.png" height="10%"  width="10%"/>
+
+代码：./core/
+
+脚本：./experiments/scripts/
+
+## 5. 结语
 <font face="楷体" size=3><strong>
 对于机械臂定位抓取目标物体，涉及到视觉，相机，机械臂方面的知识
 <br/>

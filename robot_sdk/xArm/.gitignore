@@ -1,0 +1,12 @@
+files__pycache__/
+.idea
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+example/test/
+example/wrapper/bak/
+example/wrapper/robot.conf
+bak-xarm/
+.vscode/
